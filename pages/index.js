@@ -1,6 +1,7 @@
 import MiraCarousel from '../components/MiraCarousel';
 import Navbar from '../components/Navbar';
 import Prenav from '../components/Prenav';
+import AboutUs from '../components/AboutUs';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Prenav/>
       <Navbar/>
       <MiraCarousel/>
+      <AboutUs/>
     </div>
   )
 }

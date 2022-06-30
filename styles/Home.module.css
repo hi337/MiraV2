@@ -119,3 +119,42 @@
   }
 
 }
+
+/* Carousel */
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* About Us */
+
+.aboutusheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.aboutusbody {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutusmain {
+  flex: 60%
+}
+
+.aboutusshort {
+  flex: 40%;
+}
+
+.aboutuslicencee {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-width: 2px;
+}

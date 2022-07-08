@@ -1,0 +1,49 @@
+{
+  "Miracards": [
+    {
+      "name": "Free Prescription Delivery",
+      "discription": "Free delivery across the city to your home, work place or long–term care facility.",
+      "img": "/image_0.webp"
+    },
+    {
+      "name": "Consultations",
+      "discription": "Professional opinion and advice on your health condition, medications, vaccines and lifestyle modification.",
+      "img": "/pexels-photo-1282308.webp"
+    },
+    {
+      "name": "Insurance Claim Processing",
+      "discription": "Electronic claim submission to your third party pay or coordination with insurance companies for coverage for medical supplies and equipment.",
+      "img": "/pexels-photo-209224.webp"
+    },
+    {
+      "name": "Diabetic Supplies",
+      "discription": "All the supplies you need to monitor and record your blood sugar are available at our pharmacy. Plus, free blood sugar testing at the pharmacy at any time. ",
+      "img": "/pexels-photo-207381.webp"
+    },
+    {
+      "name": "Home Care Supplies",
+      "discription": "Supplies required for your independence, health and wellness needs can be ordered for you.",
+      "img": "/lb-2.webp"
+    },
+    {
+      "name": "Compliance Packaging Available",
+      "discription": "To assist patents with self administration and managing a large number of medications and to improve adherence.",
+      "img": "/pexels-photo-208512.webp"
+    },
+    {
+      "name": "Compounding & Personalized Medications",
+      "discription": "In compliance with the new compounding guideline by Alberta College of pharmacy. ",
+      "img": "/mortar.webp"
+    },
+    {
+      "name": "Supports & Braces",
+      "discription": "Supports, braces and other devices to restrict or assist body movement. We also offer Ostomy supplies to help you with your Ostomy care.",
+      "img": "/thermo.webp"
+    },
+    {
+      "name": "Compression Stocking",
+      "discription": "Certified fitter on site to address your request for compression stocking for medical reasons or travel purposes.",
+      "img": "/meds.webp"
+    }
+  ]
+}

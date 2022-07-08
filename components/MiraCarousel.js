@@ -43,10 +43,12 @@ export default function MiraCarousel() {
     ]
 
     return(
+        <div id="home">
         <Carousel indicators={false}>
             {items.map((item, index) => {
                 return <Item item={item} key={index} />
             })}
         </Carousel>
+        </div>
     )
 }

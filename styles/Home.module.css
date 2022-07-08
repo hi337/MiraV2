@@ -2,8 +2,8 @@
 
 .prenav {
   background-color: #16A085;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   gap: 20px;
 }
 
@@ -38,10 +38,13 @@
   width: 100%;
   display: flex;
   align-items: center;
-  position: relative;
-  padding: 0.5rem 0rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-color: white;
   color: black;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .navbarlogo {
@@ -84,10 +87,15 @@
   width: 100%;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
   .navbaricon {
     display: block;
   }
+
+  .navbar {
+    padding-left: 10px;
+  }
+
   .navbarmenu ul {
     display: none;
     position: absolute;
@@ -95,7 +103,7 @@
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 77px);
+    height: 310px;
     background-color: white;
   }
 
@@ -157,4 +165,89 @@
   margin-top: 40px;
   margin-bottom: 40px;
   border-width: 2px;
+}
+
+/* What we offer page */
+
+.offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.miracard {
+
+}
+
+/* Contact Page */
+
+.contactus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FAQ */
+
+.FAQheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FAQ {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction:row;
+}
+
+.FAQimg {
+  display: flex;
+  flex-direction:column;
+  flex: 50%
+}
+
+.FAQtext {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Licence */
+
+.licence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Footer */
+
+.footer {
+
+}
+
+.prefooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainfooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerbuttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
 }

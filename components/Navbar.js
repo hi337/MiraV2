@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import { IconButton } from '@mui/material'
+import { Container, IconButton } from '@mui/material'
 import {FaBars} from "react-icons/fa"
 import Image from 'next/image'
 import { useState } from 'react'
@@ -18,22 +18,22 @@ export default function Navbar() {
       <div className={navState ? styles.navbarmenu + ' ' + styles.extend : styles.navbarmenu}>
         <ul>
           <li>
-            <a>Home</a>
+            <a href='#home'>Home</a>
           </li>
           <li>
-            <a>About Us</a>
+            <a href='#about'>About Us</a>
           </li>
           <li>
-            <a>Services</a>
+            <a href='#service'>Services</a>
           </li>
           <li>
-            <a>Contact Us</a>
+            <a href='#contact'>Contact Us</a>
           </li>
           <li>
-            <a>FAQ</a>
+            <a href='#faq'>FAQ</a>
           </li>
           <li>
-            <a>Licence</a>
+            <a href='#licence'>Licence</a>
           </li>
         </ul>
       </div>

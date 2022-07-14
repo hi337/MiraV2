@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 export default function Footer() {
   return (
     <div>
-      <div style={{ backgroundColor: "#f6b60b" }}>
+      <div style={{ backgroundColor: "#f6b60b", marginTop: 30 }}>
         <Container className={styles.footer} maxWidth="lg">
           <div className={styles.prefooter}>
             <div>

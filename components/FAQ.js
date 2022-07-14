@@ -1,14 +1,12 @@
 import { Container } from "@mui/material";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Subheader from "./Subheader";
 
 export default function FAQ() {
   return (
     <Container id="faq" maxWidth="lg">
-      <div className={styles.FAQheader}>
-        <h3>FRQUENTLY ASKED QUESTIONS</h3>
-        <h5>OUR PHARMACY'S MOST FRQUENTLY ASKED QUESTIONS!</h5>
-      </div>
+      <Subheader title="FREQUENTLY ASKED QUESTIONS" subtitle="OUR PHARMACY'S MOST FRQUENTLY ASKED QUESTIONS!" />
       <div className={styles.FAQ}>
         <div className={styles.FAQimg}>
           <Image height={265} width={457} src="/heart-hand.webp" />

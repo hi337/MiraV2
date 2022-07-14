@@ -5,13 +5,14 @@ import styles from '../styles/Home.module.css'
 function Item(props) {
     return(
         <Paper className={styles.carousel} style={{backgroundImage: "url(/" + props.item.backgroundImage + ")", backgroundSize: "cover", backgroundRepeat: "no-repeat", height: 600}}>
-            <Typography variant="h4">{props.item.title}</Typography>
+            <h4 className={styles.carouseltitle}><b>{props.item.title}</b></h4>
             {
                 props.item.describe.map((string, index) => {
-                    return <Typography key={index} variant="h5">{string}</Typography>
+                    return <Typography style={{fontSize: 20}} key={index} variant="p">{string}</Typography>
                 })
             }
-            <Button href={props.item.link}>{props.item.buttonText}</Button>
+            <div style={{paddingBottom: 60}}></div>
+            <Button className={styles.carouselbutton} href={props.item.link}><b>{props.item.buttonText}</b></Button>
         </Paper>
     )
 }
@@ -31,12 +32,12 @@ export default function MiraCarousel() {
             describe: [""],
             backgroundImage: "OIP.jpg",
             link: "tel:780-244-4221",
-            buttonText: "Book an Appointment Today!"
+            buttonText: "Call Today!"
         },
         {
             title: "COVID ANTIBODIES TEST NOW AVAILABLE!",
             describe: ["Test are now available here to keep all you Edmontonians safe and in the know!"],
-            backgroundImage: "renditionDownload (3).svg",
+            backgroundImage: "rendition.webp",
             link: "#contact",
             buttonText: "Learn More"
         }

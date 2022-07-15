@@ -1,10 +1,11 @@
 import { Container, Typography, Button, Divider} from "@mui/material"
 import styles from '../styles/Home.module.css'
 import Subheader from "./Subheader"
+import Image from "next/image"
 
 export default function AboutUs() {
     return(
-        <Container id="about" maxWidth="lg">
+        <Container style={{paddingTop: 20}} id="about" maxWidth="lg">
             <Subheader title="ABOUT US" subtitle="We are Edmonton's Friendly Neighbourhood Pharmacy"/>
             <div className={styles.aboutusbody}>
                 <div className={styles.aboutusmain}>
@@ -39,6 +40,8 @@ export default function AboutUs() {
                             <Typography variant="body1">Our Location: 3921 106 St NW <br/> Phone Number: +1-780-244-4221 <br/> Email: miracarepharmacy@gmail.com </Typography>
                         </div>
                     </div>
+                    <div style={{height: 20}} />
+                    <Image height={240} width={360} src="/about_client.webp" />
                 </div>
             </div>
         </Container>

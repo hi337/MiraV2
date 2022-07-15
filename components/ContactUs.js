@@ -1,6 +1,7 @@
 import { Container } from "@mui/material";
 import styles from "../styles/Home.module.css";
 import Subheader from "./Subheader";
+import Image from "next/image"
 
 export default function ContactUs() {
   return (
@@ -10,7 +11,8 @@ export default function ContactUs() {
       <div>Corporate Information</div>
       <div>Miracare Pharmacy Inc 3921 106 St NW Edmonton, AB T6J 2S3</div>
       <div>Corporation representative: Salam Shartooh</div>
-      <div></div>
+      <div style={{height: 20}}/>
+      <Image src={"/contact.JPG.webp"} height={220} width={460} />
     </Container>
   );
 }

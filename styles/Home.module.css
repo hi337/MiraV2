@@ -233,10 +233,11 @@
 .FAQimg {
   flex-direction:column;
   flex: 50%;
+  margin-top: 20px;
 }
 
 .FAQtext {
-  flex: 50%;
+  flex: 70%;
   display: flex;
   flex-direction: column;
   font: 400 14px/26px "Roboto", sans-serif;
@@ -276,6 +277,33 @@
   align-items: center;
   justify-content: space-evenly;
   
+}
+
+.footerpretitle {
+  font: 700 18px "Roboto", sans-serif;
+  color: #222222;
+}
+
+.footerpretext {
+  font: 400 14px/26px "Roboto", sans-serif;
+  color: #555555;
+}
+
+.footerprebutton {
+  background-color: black;
+  height: 60px;
+  width: 185px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+.footerprebutton:hover {
+  background-color: #f6b60b;
+}
+
+.footerprebutton b {
+  color: white;
+  font-size: large;
+  font: 700 18px/59px "Roboto", sans-serif;
 }
 
 /* global styles */

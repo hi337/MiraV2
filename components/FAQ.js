@@ -32,7 +32,7 @@ export default function FAQ() {
                     <br/><b>Is my health information kept confidential?</b>
         <br/>Yes, all personal health information is always kept secure and confidential. If you would like to discuss sensitive health concerns with one of our pharmacists in private, please request to speak with us in our private counseling room, located in the pharmacy.
                     
-                    <br/><b>Who is a "prescribing pharmacist"?</b>
+                    <br/><b>Who is a prescribing pharmacist?</b>
         <br/>A Prescribing Pharmacist is someone who has been granted privileges by the Alberta College of Pharmacists to write prescriptions for medications without you having to see a physician.
         
                     <br/><b>Is there any limitation on what type of medications a Prescribing Pharmacist can prescribe?</b>

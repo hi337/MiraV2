@@ -3,15 +3,18 @@ import { Container, IconButton } from '@mui/material'
 import {FaBars} from "react-icons/fa"
 import Image from 'next/image'
 import { useState } from 'react'
+import Link from "next/link"
 
 export default function Navbar() {
   const [navState, setNavState] = useState(false)
 
   return(
     <nav className={styles.navbar}>
-      <a href='/' className={styles.navbarlogo}>
+      <Link href="/">
+      <a className={styles.navbarlogo}>
         <Image src={"/logo.jpg"} height={40} width={170} />
       </a>
+      </Link>
       <IconButton className={styles.navbaricon} onClick={() => setNavState(!navState)}>
         <FaBars/>
       </IconButton>

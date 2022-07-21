@@ -48,8 +48,8 @@
   z-index: 1000;
   background-color: white;
   color: black;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 160px;
+  padding-right: 160px;
 }
 
 .navbarlogo {
@@ -91,13 +91,15 @@
   display: block;
   width: 100%;
   transition: color ease-in-out 0.3s;
+  color: black;
+  font: 700 14px/100px "Roboto", sans-serif;
 }
 
 .navbarmenu li a:hover {
   color: #f6b60b;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .navbaricon {
     display: block;
   }
@@ -113,22 +115,22 @@
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: 310px;
+    height: 360px;
     background-color: white;
   }
 
   .navbarmenu li {
+    display: flex;
     text-align: center;
-    margin-right: 1;
-    margin-left: 1;
+    align-items: center;
     transition: background-color ease-in 0.2s;
     border-radius: 1cm;
+    height: 60px;
   }
 
   .navbarmenu li a {
     color: black;
     width: 100%;
-    padding: 0.75rem 0;
   }
 
   .navbarmenu li:hover {
@@ -183,13 +185,26 @@
 }
 
 .aboutusshort {
-  flex: 35%;
+  flex: 45%;
   margin-left: 3rem;
+  margin-bottom: 20px;
 }
 
 .aboutuslicencee {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 940px) {
+  .aboutusbody {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutusmain {
+    width: 80%;
+  }
 }
 
 /* What we offer page */
@@ -199,10 +214,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.miracard {
-
 }
 
 /* Contact Page */
@@ -244,6 +255,12 @@
   color: #555555;
 }
 
+@media screen and (max-width: 1176px) {
+  .FAQimg {
+    display: none;
+  }
+}
+
 /* Licence */
 
 .licence {
@@ -255,14 +272,12 @@
 
 /* Footer */
 
-.footer {
-
-}
-
 .prefooter {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 .mainfooter {
@@ -270,13 +285,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footerbuttons {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  
 }
 
 .footerpretitle {
@@ -304,6 +312,18 @@
   color: white;
   font-size: large;
   font: 700 18px/59px "Roboto", sans-serif;
+}
+
+.footerLastText {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 1040px) {
+  .prefooter {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /* global styles */

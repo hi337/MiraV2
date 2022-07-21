@@ -18,22 +18,22 @@ export default function Navbar() {
       <div className={navState ? styles.navbarmenu + ' ' + styles.extend : styles.navbarmenu}>
         <ul>
           <li>
-            <a href='#home'>Home</a>
+            <a href='#home'>HOME</a>
           </li>
           <li>
-            <a href='#about'>About Us</a>
+            <a href='#about'>ABOUT US</a>
           </li>
           <li>
-            <a href='#service'>Services</a>
+            <a href='#service'>SERVICES</a>
           </li>
           <li>
-            <a href='#contact'>Contact Us</a>
+            <a href='#contact'>CONTACT US</a>
           </li>
           <li>
             <a href='#faq'>FAQ</a>
           </li>
           <li>
-            <a href='#licence'>Licence</a>
+            <a href='#licence'>LICENCE</a>
           </li>
         </ul>
       </div>

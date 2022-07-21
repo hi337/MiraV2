@@ -19,6 +19,10 @@ export default function Subheader(props) {
         <Typography variant="p">
           {props.subtitle}
         </Typography>
+        <br/><br/>
+        <Typography variant="p">
+          {props.extra}
+        </Typography>
       </div>
     )
 }

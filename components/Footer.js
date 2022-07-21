@@ -8,7 +8,7 @@ export default function Footer() {
       <div style={{ backgroundColor: "#f6b60b", marginTop: 30, paddingTop: 20, paddingBottom: 20}}>
         {/* <Container className={styles.footer} maxWidth={"xl"}> */}
           <div className={styles.prefooter}>
-            <div style={{marginRight: 100}}>
+            <div>
               <h4 className={styles.footerpretitle}>Come now for flu and travel shots!</h4>
               <p className={styles.footerpretext}>
                 If you are planning to travel outside of the country, make sure
@@ -22,11 +22,8 @@ export default function Footer() {
       <div style={{backgroundColor: "#0d5d4d"}}>
         <Container maxWidth="lg">
         <div className={styles.mainfooter}>
-        <h2 style={{color: "#f6b60b"}}>Miracare Pharmacy</h2>
-        <p style={{color: "white"}}>Visit us today for all your medical needs</p>
-        <div className={styles.footerbuttons}>
-            <IconButton style={{color: 'white'}}><FaEnvelope size={28}/></IconButton>
-        </div>
+        <h2 style={{color: "gold", fontSize: 30}}>Miracare Pharmacy</h2>
+        <p className={styles.footerLastText}>Visit us today for all your medical needs</p>
       </div>
         </Container>
       </div>
